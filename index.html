@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>ROCC</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__nav">
+          <a href="#" class="nav-link">Better</a>
+          <a href="#" class="nav-link">Shop</a>
+          <a href="#" class="nav-link">Subscription</a>
+          <a href="#" class="nav-link">Contact</a>
+        </nav>
+        <div class="hero">
+          <img src="images/logo.png" alt="logo" class="hero__logo" />
+          <h1 class="hero__title">Natural + Sustainable Oral Care</h1>
+        </div>
+      </header>
+      <section class="product">
+        <h2 class="title">
+          We’re refreshing, but not just because we’re toothpaste.
+        </h2>
+        <div class="product__items">
+          <div class="card">
+            <img src="images/card1.png" alt="card1" class="card__img" />
+            <span class="card__title"
+              >River Mint + Green Tea Toothpaste — $10.00</span
+            >
+          </div>
+          <div class="card">
+            <img src="images/card2.png" alt="card2" class="card__img" />
+            <span class="card__title"
+              >Vitamin B12 Mint + Coconut Oil Toothpaste</span
+            >
+          </div>
+          <div class="card">
+            <img src="images/card3.png" alt="card3" class="card__img" />
+            <span class="card__title">Starter Kit — $22.00</span>
+          </div>
+          <div class="card">
+            <img src="images/card4.png" alt="card4" class="card__img" />
+            <span class="card__title">Biodegradable Toothbrush — $6.00</span>
+          </div>
+        </div>
+        <a href="#" class="button">Shop all products</a>
+      </section>
+      <section class="ticker">
+        <h2 class="ticker__title">
+          <span class="ticker__marquee"
+            >Biodegradable Tubes. Vitamins. Vegan. Cruelty Free.</span
+          >
+        </h2>
+      </section>
+      <section class="info">
+        <div class="info-content">
+          <div class="info-content__img info-content__img_biodegradable"></div>
+          <div class="info-block">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M27.9907 1H13.0086C11.4015 1 10.14 2.39007 10.2798 4.00271L12.5687 30.2952C12.6802 31.572 13.6417 32.5748 14.8599 32.7744V37.3771C14.8599 38.2745 15.5794 39 16.467 39H24.5331C25.4207 39 26.1402 38.2745 26.1402 37.3771V32.7744C27.3584 32.574 28.3191 31.572 28.4314 30.2952L30.7203 4.00271C30.8593 2.39007 29.5978 1 27.9907 1Z"
+                fill="#526E3E"
+              />
+            </svg>
+            <h2 class="info-block__title">Made with biodegradable tubes.</h2>
+            <p class="info-block__text">
+              We think about our footprint, almost as much as our teeth. Every
+              year 1,500,000,000 toothpaste tubes enter landfill. And live there
+              for 500+ years.
+            </p>
+            <p class="info-block__text">
+              We found a better way – a biodegradable toothpaste tube. The first
+              of its kind in Australia. Our game-changing tube breaks down in
+              landfill in just 6-10 years.
+            </p>
+            <p class="info-block__text">
+              Make a difference, every time you brush. (That’s twice a day if
+              you’re playing along at home.)
+            </p>
+          </div>
+        </div>
+        <div class="info-content info-content_reverse">
+          <div class="info-content__img info-content__img_vitamins"></div>
+          <div class="info-block">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M33.3788 20.2554C33.3242 20.2008 33.2647 20.155 33.2085 20.102C33.2639 20.0489 33.3242 20.0031 33.3788 19.9485L35.2573 18.07C38.9276 14.3998 38.9276 8.44852 35.2573 4.7783C31.5871 1.10808 25.6358 1.10808 21.9656 4.7783L20.0871 6.6568C20.0598 6.68412 20.0373 6.71465 20.01 6.74197C19.9827 6.71465 19.9602 6.68412 19.9329 6.6568L18.0544 4.7783C14.3841 1.10808 8.43288 1.10808 4.76266 4.7783C1.09244 8.44852 1.09244 14.3998 4.76266 18.07L6.64116 19.9485C6.6958 20.0031 6.75525 20.0489 6.81149 20.102C6.75606 20.155 6.6958 20.2008 6.64116 20.2554L4.76266 22.1339C1.09244 25.8041 1.09244 31.7554 4.76266 35.4256C8.43288 39.0958 14.3841 39.0958 18.0544 35.4256L19.9329 33.5471C19.9602 33.5198 19.9827 33.4893 20.01 33.462C20.0373 33.4893 20.0598 33.5198 20.0871 33.5471L21.9656 35.4256C25.6358 39.0958 31.5871 39.0958 35.2573 35.4256C38.9276 31.7554 38.9276 25.8041 35.2573 22.1339L33.3788 20.2554ZM20.01 25.2104C17.189 25.2104 14.9016 22.9237 14.9016 20.102C14.9016 17.2802 17.1882 14.9935 20.01 14.9935C22.8318 14.9935 25.1184 17.2802 25.1184 20.102C25.1184 22.9237 22.831 25.2104 20.01 25.2104Z"
+                fill="#526E3E"
+              />
+            </svg>
+
+            <h2 class="info-block__title">
+              Made with vitamins + earth minerals.
+            </h2>
+            <p class="info-block__text">
+              Our toothpaste is packed with minerals and vitamins, designed for
+              whole mouth health.
+            </p>
+            <p class="info-block__text">
+              Take our B12 Mint & Coconut toothpaste, for example. It contains
+              the most natural, high quality B12 Methylcobalamin, plus coconut
+              oil to prevent bad breath and tooth decay.
+            </p>
+            <p class="info-block__text">Isn’t that a breath of fresh air?</p>
+          </div>
+        </div>
+        <div class="info-content">
+          <div class="info-content__img info-content__img_healthy"></div>
+          <div class="info-block">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20 14.6362C15.0104 3.20545 2 5.12065 2 5.12065C3.41048 13.4993 5.7152 19.5048 14.155 21.1896C17.2273 21.8023 17.9343 23.7989 18.0906 24.5067C18.0862 24.745 18.0826 24.9862 18.0826 25.2303L18.133 32.917V36.3334H21.867V32.917L21.9174 25.2303C21.9174 24.9862 21.9138 24.745 21.9094 24.5067C22.0657 23.7989 22.7734 21.8023 25.845 21.1896C34.2848 19.5048 36.5895 13.4993 38 5.12065C38 5.12065 24.9896 3.20545 20 14.6362Z"
+                fill="#526E3E"
+              />
+            </svg>
+            <h2 class="info-block__title">Made for healthy mouths.</h2>
+            <p class="info-block__text">
+              We prefer superfoods like Mint. Coconut. Green tea. We think your
+              mouth does, too.
+            </p>
+            <p class="info-block__text">
+              Our toothpaste is made from real, delicious ingredients. No nasty
+              chemicals, no extreme flavours, and definitely no Arctic Blast.
+            </p>
+            <p class="info-block__text">
+              It’s a holiday for your teeth. And a sweet post-dinner treat.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="quality">
+        <h2 class="title">What we stand for</h2>
+        <div class="quality-list">
+          <div class="quality-item">
+            <img
+              src="images/vegan.png"
+              alt="quality"
+              class="quality-item__img"
+            />
+            <span class="quality-item__text">Vegan Friendly</span>
+          </div>
+          <div class="quality-item">
+            <img
+              src="images/gluten.png"
+              alt="quality"
+              class="quality-item__img"
+            />
+            <span class="quality-item__text">Gluten Free</span>
+          </div>
+          <div class="quality-item">
+            <img
+              src="images/derrived.png"
+              alt="quality"
+              class="quality-item__img"
+            />
+            <span class="quality-item__text"
+              >Naturally Derived Ingredients</span
+            >
+          </div>
+          <div class="quality-item">
+            <img
+              src="images/whiter.png"
+              alt="quality"
+              class="quality-item__img"
+            />
+            <span class="quality-item__text">Naturally Whiter Teeth</span>
+          </div>
+          <div class="quality-item">
+            <img
+              src="images/sustainable.png"
+              alt="quality"
+              class="quality-item__img"
+            />
+            <span class="quality-item__text">Sustainable</span>
+          </div>
+          <div class="quality-item">
+            <img
+              src="images/cruelty.png"
+              alt="quality"
+              class="quality-item__img"
+            />
+            <span class="quality-item__text">Cruelty Free</span>
+          </div>
+          <div class="quality-item">
+            <img
+              src="images/degradable.png"
+              alt="quality"
+              class="quality-item__img"
+            />
+            <span class="quality-item__text">Bio Degradable Tube</span>
+          </div>
+        </div>
+      </section>
+      <section class="get-in">
+        <div class="get-in__items">
+          <h2 class="get-in__title">Get it in your mouth.</h2>
+          <a href="#" class="button">Shop all products</a>
+        </div>
+        <img src="images/getin.png" alt="get-in" class="get-in__img" />
+      </section>
+      <section class="reviews">
+        <div class="review">
+          <div class="review__rating">
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="review__info">
+            <span class="review__name">Gracie</span>
+            <span class="review__separator">—</span>
+            <span class="review__date">May 10, 2021</span>
+          </div>
+          <p class="review__text">
+            This toothpaste is super cute in my bathroom - no more ugly
+            toothpaste tubes. And it's biodegradable, win-win!
+          </p>
+        </div>
+        <div class="review">
+          <div class="review__rating">
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="review__info">
+            <span class="review__name">Tawni</span>
+            <span class="review__separator">—</span>
+            <span class="review__date">May 5, 2021</span>
+          </div>
+          <p class="review__text">
+            We love these products!! And we can’t say enough great things about
+            the natural ingredients either! 3 benefits in 1!! :)
+          </p>
+        </div>
+        <div class="review">
+          <div class="review__rating">
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div class="review__star">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="14" height="14" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1:276"
+                      transform="scale(0.0714286)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1:276"
+                    width="14"
+                    height="14"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVQ4EY2R4Q2CQAyFGcERHMENZARHcAQ3YAX/mbQmOEdrgpvIBvrjKj8hj1gCcnCSNNd7731cD7Js4QkkZ9SCHZebS7U11haFPp6KqMZycxB9JDKX2rLaBNaXg+ihzZIYpSHZG2thJKWRPB0aVmjwWAtk+/ED6XsIfO+V2oPJAskuFRz7gMD0oweS49hc65Gd3PcfeAb5G9ZOgue5yYpPngLjv4U1T4ENaz45DZsP68nBQPJACIXedWSWwNqu98OvCc1Y6zHYAeg2gAvO/pJEAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div class="review__info">
+            <span class="review__name">David</span>
+            <span class="review__separator">—</span>
+            <span class="review__date">April 8, 2021</span>
+          </div>
+          <p class="review__text">
+            B12 in a toothpaste?! As a long-term vegan this is so exciting! Love
+            the super minty taste too.
+          </p>
+        </div>
+      </section>
+      <section class="collage">
+        <div class="collage-text">
+          <h3 class="collage-text__title">Who doesn’t want to be connected?</h3>
+          <span class="collage-text__tag">@roccnaturals</span>
+        </div>
+        <div class="collage-images">
+          <img src="../images/col1.jpg" alt="col" class="collage__img grid-1" />
+          <img src="../images/col2.jpg" alt="col" class="collage__img grid-2" />
+          <img src="../images/col3.jpg" alt="col" class="collage__img grid-3" />
+          <img src="../images/col4.jpg" alt="col" class="collage__img grid-4" />
+          <img src="../images/col5.jpg" alt="col" class="collage__img grid-5" />
+          <img src="../images/col6.jpg" alt="col" class="collage__img grid-6" />
+        </div>
+      </section>
+      <footer class="footer">
+        <span class="nav-link">©Copyright – ROCC Naturals 2021.</span>
+        <div class="footer__nav">
+          <a href="#" class="nav-link">privacy policy</a>
+          <a href="#" class="nav-link">shipping + returns</a>
+          <a href="#" class="nav-link">returns</a>
+          <a href="#" class="nav-link">terms & conditions</a>
+        </div>
+        <div class="social">
+          <a href="#" class="nav-link"
+            ><img src="images/insta.svg" alt="insta" class="social__insta"
+          /></a>
+          <a href="#" class="nav-link"
+            ><img src="images/fb.svg" alt="fb" class="social__fb"
+          /></a>
+        </div>
+        <div class="subscribe">
+          <input
+            type="email"
+            class="subscribe__input"
+            placeholder="Newsletter Subscribe"
+          />
+          <button class="subscribe__button">Subscribe</button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
