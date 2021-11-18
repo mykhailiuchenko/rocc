@@ -26,6 +26,7 @@ a {
   letter-spacing: 0.21px;
   color: #ffffff;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .hero {
@@ -412,6 +413,10 @@ a {
 
 @include extra-small {
   .get-in__title {
-    font-size: 70px;
+    font-size: 65px;
+  }
+
+  .footer__nav {
+    align-items: center;
   }
 }
